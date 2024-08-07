@@ -21,7 +21,7 @@ app.use('/books', booksRouter);
 app.use('/libraries', libraryRouter); // Add library routes
 
 // Start server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
